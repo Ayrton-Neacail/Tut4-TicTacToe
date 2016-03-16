@@ -27,7 +27,7 @@ using namespace std;
 	 bool flag = 0;
 	 if (row <= 3 && col <= 3 && row > 0 && col > 0)
 	 {
-		 if (grid[row][ccol] == '-')//checks if the space available
+		 if (grid[row][col] == '-')//checks if the space available
 		 {
 			 flag = 1;
 			 if (player == 1)
