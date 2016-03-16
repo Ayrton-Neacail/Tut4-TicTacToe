@@ -24,10 +24,10 @@ int main()
 		int row, col;
 		bool m;
 		char sp;
-		cout << "to start a new game enter -1" << endl;
+		cout << "to start a new game enter 5" << endl;
 		cout << "Player " << player << ": Enter co-ordinates (row,col):";
 		cin >> row >> sp >> col;
-		if (row == -1)
+		if (row == 5)
 		{
 			i = 1;
 			toe.reset();
